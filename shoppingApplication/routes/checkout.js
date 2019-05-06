@@ -7,8 +7,8 @@ var paypal                  = require('paypal-rest-sdk');
 //Paypal configuration
 paypal.configure({
   'mode': 'sandbox',
-  'client_id': 'ATcaqkwM301kO3SVoD17L3i2Teg4abwvGo6vsMozyLldk106hXm5x0nTyCBBqdo1a7lJHQ4if_01wsbo',
-  'client_secret' : 'ELmnj3lkxxglfCbcqSzfUaQm8Zsbty0EbJFdfzbt4l8epzcwp76O67zo9JZHt9FzFsYilRxDdXdC6DXh'
+  'client_id': 'add paypal client id here',
+  'client_secret' : 'add client secret here'
 });
 // GET checkout page
 router.get('/', ensureAuthenticated, function(req, res, next){
